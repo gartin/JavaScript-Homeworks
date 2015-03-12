@@ -1,0 +1,1 @@
+function convertKMHtoKnots(o){var t=.5399568034557235*o;console.log(t.toFixed(2))}convertKMHtoKnots(20),convertKMHtoKnots(112),convertKMHtoKnots(400);

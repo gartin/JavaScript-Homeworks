@@ -1,0 +1,1 @@
+function calcCylinderVolume(l){var c=l[0],e=l[1],o=Math.PI*Math.pow(c,2)*e;console.log(o.toFixed(3))}calcCylinderVolume([2,4]),calcCylinderVolume([5,8]),calcCylinderVolume([12,3]);

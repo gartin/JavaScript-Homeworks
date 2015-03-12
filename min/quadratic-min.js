@@ -1,0 +1,1 @@
+function solve_quadratic(o,a,l){var t=Math.pow(a,2)-4*o*l,s=(-a+Math.sqrt(t))/(2*o),r=(-a-Math.sqrt(t))/(2*o);t>0&&(s=(-a-Math.sqrt(t))/(2*o),r=(-a+Math.sqrt(t))/(2*o),console.log("x1 = "+s+"\nx2 = "+r)),0===t&&(s=-a/(2*o),console.log("X = "+s)),0>t&&console.log("No real roots")}solve_quadratic(2,5,-3),console.log(),solve_quadratic(2,-4,2),console.log(),solve_quadratic(4,2,1);

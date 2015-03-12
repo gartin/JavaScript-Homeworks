@@ -1,0 +1,44 @@
+main {
+    width: 900px;
+    margin: 200px auto;
+}
+input, p, label, span, h1 {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+p, input {
+    text-indent: 15px;
+    font-size: 22px;
+    background-color: #224364;
+    color: #CF8934;
+    height: 40px;
+    border: none;
+}
+
+p {
+    line-height: 2;
+}
+
+
+button  {
+    display: block;
+    width: 30%;
+    height: 40px;
+    margin: 30px auto 20px;
+    background: #fff;
+    color: #000;
+    border: 2px solid;
+}
+
+
+label, span {
+    font-size: 22px;
+}
+
